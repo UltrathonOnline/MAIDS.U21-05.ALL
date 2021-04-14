@@ -1,0 +1,244 @@
+<!-- Edit the answers below to describe your dataset -->
+<!-- Do not change questions as these are defined by the MAIDS specification -->
+<root name="ABOUT">
+    <title>
+        <question>What is the title of your dataset?</question>
+        <answer>Thiopurine/methotrexate maintenance therapy of acute lymphoblastic leukemia</answer>
+    </title>
+    <repository>
+        <question>What is the URL of the repository for this MAIDS description on Github?</question>
+        <answer>https://github.com/UltrathonOnline/MAIDS.U21-05.ALL</answer>
+    </repository>
+    <authors>
+        <question>Who are the dataset's authors?</question>
+        <answer>
+            <author_1>
+                <!-- Primary contact that must always be specified -->
+                <firstnames>Rikke Linnemann</firstnames>
+                <lastname>Nielsen</lastname>
+                <email>rlni@dtu.dk</email>
+            </author_1>
+            <author_2>
+                <firstnames>Kjeld</firstnames>
+                <lastname>Schmiegelow</lastname>
+                <email>Kjeld.Schmiegelow@regionh.dk </email>
+            </author_2>
+            <author_3>
+                <firstnames>Kathrine</firstnames>
+                <lastname>Grell</lastname>
+                <email>kagr@sund.ku.dk</email>
+            </author_3>
+        </answer>
+    </authors>
+    <scores>
+        <document>
+            <score>
+                <question>What is the document score, as defined by MAIDS?</question>
+                <answer>1</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer></answer>
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer></answer>
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer></answer>
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer></answer>
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer></answer>
+                </contactEmail>
+            </evaluator>
+        </document>
+        <fairness>
+            <score>
+                <question>What is the fairness score given, as defined by MAIDS?</question>
+                <answer>?</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer></answer>
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer></answer>
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer></answer>
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer></answer>
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer></answer>
+                </contactEmail>
+            </evaluator>
+        </fairness>
+        <magnitude>
+            <score>
+                <question>What is the magnitude score given, as defined by MAIDS?</question>
+                <answer>4</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer></answer>
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer></answer>
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer></answer>
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer></answer>
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer></answer>
+                </contactEmail>
+            </evaluator>
+        </magnitude>
+        <synthetic>
+            <score>
+                <question>What is the synthetic score given, as defined by MAIDS?</question>
+                <answer>E</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer></answer>
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer></answer>
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer></answer>
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer></answer>
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer></answer>
+                </contactEmail>
+            </evaluator>
+        </synthetic>
+    </scores>
+    <thematic>
+        <filename>thematic.jpg</filename>
+    </thematic>
+    <abstract>
+        <question>Please provide a brief abstract describing this dataset.</question>
+        <answer>To provide a deeper understanding of pharmacogenetics/-kinetics/-dynamics of MT and increase cure rates for childhood leukemia. The datasets emerge from two Nordic childhood leukemia protocols (ALL92: 1992-2006) and ALL2008 (2008-2018).</answer>
+    </abstract>
+    <usecases>
+        <question>Please provide one or more short use cases to highlight what this dataset might be used for. These should summarise the main and secondary research questions into single sentence objectives. You may also use this section to expand on possible uses not discussed in the research questions.</question>
+        <answer>
+            <usecase_1 />
+        </answer>
+    </usecases>
+    <research>
+        <main>
+            <question>Please state, in detail, the main hypothesis for which this dataset was created.</question>
+            <answer>1-2 years of thiopurine (6MP)/methotrexate (MTX) maintenance therapy (MT) is one of the most important treatment phases of childhood acute lymphoblastic leukemia without which 40% of all patients will develop leukemic relapse. The pharmacology of MTX and 6MP is complex (see figure), and we are the world-wide leading group in mapping the metabolite landscape in large clinical trials. Traditionally, MT have been adjusted by blood counts to obtain a preset degree of myelotoxicity, but this is confounded by wide natural variations in blood counts. Thus, patients are currently seen at 1-2 weeks intervals during MT to titrate therapy to the right dosage. Furthermore, methylated thiopurine metabolites can cause liver cell damage with a rise in aminotransferases (although rarely liver dysfunction; Nygaard, Clin Pharm Ther 2004). The antileukemic effect of MT is mediated by DNA-incorporated thioguanine nucleotides (DNA-TG) with on average 1:6,000 nucleotides being 6TG substituted. DNA-TG levels varies 10-fold between patients, and DNA-TG incorporation can be enhanced by other thiopurine and methotrexate metabolites. We have recently demonstrated that the risk of relapse is primarily determined by DNA-TG levels during MT (Nielsen, Lancet Oncol 2017; Toksvang, Leukemia 2021 (In press)), and that germline DNA variants determines propensity for DNA-TG incorporation (Tulstrup, Leukemia 2018). However, it frequently takes up to a year before clinicians reach the optimal dose for the individual patient, and drug dosing is determined both by the individual patient’s tolerance to the therapy and the treating physician’s willingness to adjust the treatment vigorously. Current drug dosing guidelines are based on blood counts (=degree of myelosuppression) but they do not meet the needs and patients are treated very diversely with >10-fold differences in drug doses and 40% do not reach their target degree myelosuppression, which may increase the risk of leukemic relapse. Thus, there is a profound need for AI-driven guidelines that takes into account drug metabolism (of MTX and 6MP), empiric data on drug doses and blood counts across hundreds of patients, and the individual patients treatment trajectory. Objectives of the present study: To reach a deeper understanding of interactions of these parameters as well as common host genome variants in order to facilitate drug dosing with two aims: (i) more rapidly reach the individual patient’s optimal target dose AND with fewer outpatient visits, and (ii) ultimately reduce the risk of relapse due to insufficient drug exposure.</answer>
+        </main>
+        <secondary>
+            <question>Please state, in detail, any other hypotheses which this dataset would be able to address.</question>
+            <answer>Single nucleotide polymorphisms have been linked to MTX and 6MP metabolism (Moriyama, Nat Genet 2016; Tulstrup, Leukemia 2018; Tulstrup, Blood 2020). Secondary aim: To develop of a polygenic risk score that reliably can predict metabolism of MTX and 6MP in the individual patients</answer>
+        </secondary>
+    </research>
+    <figures>
+        <question>Please entitle and provide a legend for each figure found in "./images/figures/".</question>
+        <answer>
+            <!-- Template: <figure_1><filename /><title /><legend /></figure_1> -->
+            <figure_1>
+                <filename>Picture1.png</filename>
+                <title>Average prescribed 6MP doses during maintenance</title>
+                <legend>Protocol dose: 75mg/m.sq.</legend>
+            </figure_1>
+            <figure_2>
+                <filename>Picture2.png</filename>
+                <title>Maintenance therapy risk factors predictive of relapse</title>
+                <legend>NOPHO ALL92: 532 non-DS ALL patients (1.0-14.9 years); ~28,000 data set</legend>
+            </figure_2>
+            <figure_3>
+                <filename>Picture3.png</filename>
+                <title>Mercaptopurine metabolism and methotrexate interaction</title>
+                <legend>DNA-TG</legend>
+            </figure_3>
+            <figure_4>
+                <filename>Picture4.png</filename>
+                <title>DNA-TGN linear mixed model</title>
+                <legend>DNA-TG integrates upstream 6MP and MTX metabolites</legend>
+            </figure_4>
+            <figure_5>
+                <filename>Picture5.png</filename>
+                <title>DNA-thioguanine nucleotide concentration and relapse-free survival</title>
+                <legend>Higher DNA-TG levels associated with relapse hazard in 526 end-of-induction EOI-MRD positive patients</legend>
+            </figure_5>
+            <figure_6>
+                <filename>Picture6.png</filename>
+                <title>Host DNA variants and 6MP metabolism</title>
+                <legend>Genome Wide Association Study (GWAS)</legend>
+            </figure_6>
+        </answer>
+    </figures>
+    <subsetAssociations>
+        <filename>subset.jpg</filename>
+        <legend>
+            <question>What is the legend for the figure describing how subsets are associated to one another?</question>
+            <answer>Seven datasets spread over two cohorts. Cohort 08 contains genotypic data.</answer>
+        </legend>
+    </subsetAssociations>
+    <populationSelection>
+        <rootNode>
+            <nodeid>0</nodeid> <!-- Do not change. Use nodeids as reference points. -->
+            <name />
+            <description />
+            <sources>
+                <!-- INSERT TEMPLATE SOURCES HERE  -->
+            </sources>
+        </rootNode>
+        <!-- INSERT TEMPLATE NODES HERE AND REFERENCE THEIR PARENTS -->
+    </populationSelection>
+</root>
+
+<!-- NODE TEMPLATES FOR DEFINING THE POPULATION SELECTION GRAPH 
+<node>
+    <nodeid />
+    <name />
+    <description />
+    <location />
+</node>
+
+<source>
+    <entityName />
+    <entityAddress />
+    <contactPerson />
+    <contactEmail />
+    <dataDescription />
+    <instancesContributed />
+    <beginDateCollection />
+    <endDateCollection />
+</source>
+-->
